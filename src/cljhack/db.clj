@@ -10,5 +10,5 @@
 (defn find-city [city]
 	(sql/with-connection spec
 		(sql/with-query-results rows
-			[(str "select * from features where class = 'P' and name = '" city "'")] 
+			["select * from features where class = 'P' and name = ?" city] 
 			(first rows))))
