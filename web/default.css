@@ -1,0 +1,19 @@
+
+body {
+	font: 2em sans-serif;
+}
+
+#city {
+	font: 1em sans-serif;	
+	margin-top: 20px;
+}
+
+#search {
+	font: 1em sans-serif;	
+}
+
+#result {
+	font: 1em sans-serif;
+	color: #999999;
+	margin-top: 20px;
+}

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<title>Weather Forecast</title>
+</head>
+
+<body>
+
+	<link type="text/css" rel="stylesheet" href="default.css"/>	
+	
+	<script type="text/javascript" src="out/goog/base.js"></script>
+	<script type="text/javascript" src="forecast.js"></script>
+	
+	<div id="title">Weather Forecast</div>
+	<input id="city" value="Waterlandkerkje" type="text" autofocus/>
+	<button id="search" type="submit">Search</button>
+	<div id="result">Result</div>	
+
+	<script type="text/javascript">
+		goog.require('forecast');
+		forecast.main();
+	</script>
+
+</body>
+
+</html>
